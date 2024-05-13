@@ -92,8 +92,10 @@ Misc arguments:
   --version     Show version information.
 ```
 
-### License
+## 📄 License
 
-**[MIT License](LICENSE)**
+**[MIT License](LICENSE.md)**
 
-Copyright (c) 2017 [cytopia](https://github.com/cytopia)
+Copyright (c) 2017 **[cytopia](https://github.com/cytopia)**
+
+Copyright (c) 2024 **[bogny](https://github.com/bogny)**
