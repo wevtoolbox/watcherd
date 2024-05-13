@@ -1,0 +1,117 @@
+# The labels in this file are automatically synced with the repository
+# using the micnncim/action-label-syncer action.
+---
+###
+### Pull Requests (Dependabot)
+###
+- name: "dependencies"
+  color: 0366d6
+  description: "Pull requests that update a dependency file"
+- name: "PR-block"
+  color: 3498db
+  description: "Pull Request: Do not merge"
+- name: "PR-merge"
+  color: 3498db
+  description: "Pull Request: Merge when ready"
+
+###
+### Pull Requests (Release Drafter)
+###
+- name: "major"
+  color: 1abc9c
+  description: "Create major release"
+- name: "minor"
+  color: 764ab5
+  description: "Create minor release"
+- name: "patch"
+  color: e08c27
+  description: "Create patch release"
+
+###
+### General Issues
+###
+- name: "bug"
+  color: ee0701
+  description: "Bug Report"
+- name: "report"
+  color: ef561f
+  description: "General Report"
+- name: "feature"
+  color: dc8b10
+  description: "Feature Request"
+- name: "question"
+  color: cc317c
+  description: "General question"
+- name: "documentation"
+  color: 45b046
+  description: "Documentation related"
+
+###
+### Status: Issue progress
+###
+- name: "status:triage"
+  color: f2a7cf
+  description: "Issue needs Triaging"
+- name: "status:confirmed"
+  color: f2a7cf
+  description: "Issue is confirmed"
+- name: "status:needs-more-info"
+  color: f2a7cf
+  description: "Issue needs more info"
+
+###
+### Close
+###
+- name: "issue:invalid"
+  color: f5c7fc
+  description: ""
+- name: "issue:invalid-type"
+  color: f5c7fc
+  description: ""
+- name: "issue:duplicate"
+  color: f5c7fc
+  description: ""
+- name: "issue:wontfix"
+  color: f5c7fc
+  description: ""
+- name: "issue:stale"
+  color: f5c7fc
+  description: ""
+
+###
+### Issue types
+###
+- name: "type:extension"
+  color: 0c9cf2
+  description: ""
+- name: "type:tool"
+  color: 0c9cf2
+  description: ""
+- name: "type:env-var"
+  color: 0c9cf2
+  description: ""
+- name: "type:config"
+  color: 0c9cf2
+  description: ""
+
+###
+### Issue Host specific
+###
+- name: "host:linux"
+  color: fbca04
+  description: ""
+- name: "host:macos"
+  color: fbca04
+  description: ""
+- name: "host:windows"
+  color: fbca04
+  description: ""
+- name: "arch:amd64"
+  color: fbca04
+  description: ""
+- name: "arch:arm64"
+  color: fbca04
+  description: ""
+- name: "arch:other"
+  color: fbca04
+  description: ""
