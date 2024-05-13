@@ -4,6 +4,8 @@
 #
 # Copyright (c) 2017 cytopia
 #
+# Copyright (c) 2024 bogny
+#
 
 ############################################################
 # Settings
@@ -25,11 +27,11 @@ IFS=$'\n'
 
 # Versioning
 MY_NAME="watcherd"
-MY_DATE="2023-03-01"
-MY_URL="https://github.com/devilbox/watcherd"
-MY_AUTHOR="cytopia <cytopia@everythingcli.org>"
-MY_GPGKEY="0xA02C56F0"
-MY_VERSION="1.1.0"
+MY_DATE="2024-05-13"
+MY_URL="https://github.com/wevtoolbox/watcherd"
+MY_AUTHOR="wevtoolbox <wevtoolbox@gmail.com>"
+MY_GPGKEY="0x41A7F228"
+MY_VERSION="1.1.1"
 MY_LICENSE="MIT"
 
 # Default settings
@@ -98,13 +100,13 @@ function print_help() {
 	printf "Note, the trigger command will only be execute when at least one add or delete command has succeeded with exit code 0."
 	printf "\\n"
 	printf "\\nRequired arguments:\\n"
-	printf "  -p <path>     %s\\n" "Path to directoy to watch for changes."
+	printf "  -p <path>     %s\\n" "Path to directory to watch for changes."
 	printf "  -a <cmd>      %s\\n" "Command to execute when a directory was added."
 	printf "                %s\\n" "You can also append the following placeholders to your command string:"
 	printf "                %s\\n" "%p The full path of the directory that changed (added, deleted)."
 	printf "                %s\\n" "%n The name of the directory that changed (added, deleted)."
 	printf "                %s\\n" "Example: -a \"script.sh -f %p -c %n -a %p\""
-	printf "  -d <cmd>      %s\\n" "Command to execute when a directory was deletd."
+	printf "  -d <cmd>      %s\\n" "Command to execute when a directory was deleted."
 	printf "                %s\\n" "You can also append the following placeholders to your command string:"
 	printf "                %s\\n" "%p The full path of the directory that changed (added, deleted)."
 	printf "                %s\\n" "%n The name of the directory that changed (added, deleted)."

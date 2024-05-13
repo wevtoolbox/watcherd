@@ -1,6 +1,8 @@
-MIT License
+# MIT License
 
-Copyright (c) 2017 cytopia
+**Copyright (c) 2017 [cytopia](https://github.com/cytopia)**
+
+**Copyright (c) 2024 [bogny](https://github.com/bogny)**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
